@@ -10,7 +10,7 @@ class MenuAdmin(admin.ModelAdmin):
 
 
 @admin.register(MenuItem)
-class MenuAdmin(admin.ModelAdmin):
+class MenuItemAdmin(admin.ModelAdmin):
     list_display = ('name', 'menu', 'parent', 'named_url',)
 
 
